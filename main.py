@@ -9,7 +9,7 @@ class NameRequest(BaseModel):
 
 client = OpenAI(
     base_url="https://models.inference.ai.azure.com",
-    api_key="ضع_مفتاحك_الخاص_هنا"
+    api_key="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"
 )
 
 @app.post("/generate-email")
